@@ -11,6 +11,7 @@ var server = app.listen(4000, function(){
 ![nodemon](https://user-images.githubusercontent.com/67537391/120589118-fd8be480-c455-11eb-9a81-22bf4f666b06.PNG)
 
 The above picture shows that we connected locally and the connection was made with unique id on the servers,i.e "socket.id" ex : "made socket connection EQcKkc4pNroe-5EmAAAA "
+![emits](https://user-images.githubusercontent.com/67537391/120593489-37acb480-c45d-11eb-941d-c24b207caf1e.PNG)
 
 Here,two clients of different socket.id's connected to single server by sockets and this will run only when we call a function i.e socket.on().This socket.io emits the texts messages from the server by io.sockets.emit() .
 ![Chat](https://user-images.githubusercontent.com/67537391/120588616-1d6ed880-c455-11eb-9885-d19604d897b7.PNG)
